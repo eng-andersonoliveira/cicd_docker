@@ -16,7 +16,7 @@ env:
   IMAGE_NAME: ${{ secrets.DOCKERHUB_USERNAME }}/cicd-demo
 
 jobs:
-  # ---------- CI: roda em paralelo ----------
+  # ---------- CI: roda em paralelo ---------
   lint:
     runs-on: ubuntu-latest
     steps:
